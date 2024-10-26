@@ -1,0 +1,20 @@
+{
+  "name": "myapi",
+  "version": "1.0.0",
+  "description": "node.js with gemini",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stsrt":"node server.js"
+  },
+  "keywords": [
+    "restApi"
+  ],
+  "author": "anil",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  }
+}
