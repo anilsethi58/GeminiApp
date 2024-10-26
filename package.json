@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stsrt":"node server.js"
+    "stsrt": "node server.js"
   },
   "keywords": [
     "restApi"
@@ -15,6 +15,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "express": "^4.21.1"
   }
 }

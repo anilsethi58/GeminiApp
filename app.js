@@ -1,9 +1,13 @@
 const express = require('express')
+const cors=require('cors')
 const app = express();
 const bodyParser = require('body-parser')
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-app.use(bodyParser.json());
 
+
+
+app.use(bodyParser.json());
+app.use(cors())
 
 app.post('/getResponse', (req, res) => {
     console.log(req.body.question);      //finf the question in gemini
